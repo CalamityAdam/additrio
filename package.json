@@ -1,6 +1,6 @@
 {
   "name": "additrio",
-  "version": "2.1.0",
+  "version": "2.2.0",
   "description": "add 2 numbers together, now plus an additional number! (so, like 3 numbers)",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
