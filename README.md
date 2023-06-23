@@ -1,9 +1,7 @@
 # AddiTrio Function 🚀🔢🎉
 
-![npm](https://img.shields.io/npm/v/npm.svg)
+![Shields.io NPM Badge](https://img.shields.io/npm/v/additrio)
 ![GitHub top language](https://img.shields.io/github/languages/top/calamityadam/additrio)
-![Build](https://github.com/calamityadam/additrio/workflows/CI/badge.svg)
-![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)
 ![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)
 
 Welcome to the official documentation of the incredibly versatile and utterly mesmerizing **AddiTrio** function! 🎊
