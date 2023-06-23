@@ -1,0 +1,17 @@
+{
+  "exclude": [
+    "src/**/*/test.ts",
+    "./lib/**/*",
+    "./jest.config.ts"
+  ],
+  "compilerOptions": {
+    "declaration": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "module": "commonjs",
+    "outDir": "./lib",
+    "skipLibCheck": true,
+    "strict": true,
+    "target": "es2016"
+  }
+}

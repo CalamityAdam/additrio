@@ -1,0 +1,29 @@
+{
+  "name": "additrio",
+  "version": "2.0.0",
+  "description": "add 2 numbers together, now plus an additional number! (so, like 3 numbers)",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "files": ["lib", "LICENSE", "README.md", "package.json"],
+  "author": "calamityadam",
+  "license": "UNLICENSED",
+  "scripts": {
+    "build": "rm -rf lib && tsc",
+    "lint": "eslint .",
+    "prepare": "yarn build",
+    "prepublishOnly": "yarn prettify && yarn lint && yarn",
+    "prettify": "prettier --write \"src/**/*.ts\"",
+    "test": "jest"
+  },
+  "devDependencies": {
+    "@types/jest": "^29.5.2",
+    "@typescript-eslint/eslint-plugin": "^5.60.0",
+    "@typescript-eslint/parser": "^5.60.0",
+    "eslint": "^8.43.0",
+    "jest": "^29.5.0",
+    "prettier": "^2.8.8",
+    "ts-jest": "^29.1.0",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.1.3"
+  }
+}
